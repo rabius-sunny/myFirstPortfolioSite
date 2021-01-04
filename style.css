@@ -1,0 +1,87 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    margin: 0 auto;
+}
+h1 {
+    font-size: 50px;
+    line-height: 30px;
+}
+.coloredText {
+    color: #204ECF;
+}
+.halfContent {
+    width: 44%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+    margin-top: 20px;
+}
+.halfContent img {
+    width: 100%;
+    border-radius: 40px 40px 40px 0px;
+}
+.halfContent p {
+    line-height: 25px;
+    color: #767676;
+    padding: 0px 10px 20px 0px;
+}
+.sectionBg {
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px;
+    padding-bottom: 100px;
+}
+.button1 {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #25A9EF, #204ECF);
+    padding: 15px 25px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 800;
+}
+
+/* My Aim Area  */
+
+.myAim {
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.myAim img {
+    width: 100%;
+    height: 350px;
+    border-radius: 40px 40px 0px 40px;
+}
+
+/* Experience Area  */
+
+.myExperience {
+    background-image: url('images/experience.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.card {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: #fff;
+}
+#fullStack {
+    border-left: 7px solid;
+    border-image: linear-gradient( #00c3ff, #204ECF);
+    border-image-slice: 1;
+}
+#noviceDev {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    
+}
+footer p {
+    text-align: center;
+}
